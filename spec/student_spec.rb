@@ -23,7 +23,7 @@ describe "Student" do
 
   describe "#new" do
     it "initializes with an empty knowledge array" do
-      sophie = Student.new
+      sophie = Student.new()
       expect(sophie.instance_variable_get(:@knowledge)).to eq([]) 
     end 
   end
